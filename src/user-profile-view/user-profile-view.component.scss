@@ -1,0 +1,55 @@
+.main-container {
+  margin: 10% 20%;
+}
+.user-profile-main-container {
+  padding: 30px;
+  border: 1px solid;
+  .left-container {
+    .user-info-container {
+      .user-profile-pic {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.view-type {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.thumbnail, .list {
+  flex: 1 0 45%;
+  display: flex;
+  justify-content: center;
+  .icon {
+    width: 30px;
+    height: 30px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.thumbnail {
+  margin-right: 10%;
+}
+.list-of-posts {
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .post-thumbnail {
+    border: 1px solid lightgray;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .post-thumbnail img {
+    width: 150px;
+    height: 150px;
+  }
+}
